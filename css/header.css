@@ -1,0 +1,60 @@
+    .button:hover,
+    .button:focus{
+        background-color: #404bbf;
+    }
+    .contacts-link:hover,
+    .contacts-link:focus{
+        color:#4d5ae5
+    }
+
+    .logo-accent{
+    color: #4d5ae5;
+   
+  } 
+  
+    .page-menu-link{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+list-style: none;
+padding: 0;
+margin: 0;
+  }
+
+
+  .page-menu-link:hover,
+  .page-menu-link :focus{
+    color: #404bbf;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.contacts-list-link{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.page-menu{
+    list-style: none;
+padding: 0;
+margin: 24px;
+}
+.contacts-list{
+    list-style: none;
+padding: 0;
+margin: 24px;
+}
+.logo-studio-name{
+    color:#000000;
+    text-decoration: none;
+}
+#header#header .logo-accent{
+background-color: transparent !important;
+    }
