@@ -3,9 +3,41 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07143;
 letter-spacing: 0.02em;
-color: #fff;
-background: #2e2f42;
 } 
 .navi{
     background: #4d5ae5;
 }
+.conteiner-hero{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:48px;
+width: 100%;
+max-width: 1158px;
+margin: 0 auto;
+padding: 94px 0;
+ }
+.conteiner-hero-name{
+    max-width: 496px;
+    margin:0;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+.conteiner-hero-button{
+    display: block;
+    width: 169px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.15);
+}
+#hero-section{
+background-color: #2e2f42 !important;
+color: #ffffff;
+   }
