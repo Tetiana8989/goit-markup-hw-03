@@ -1,11 +1,28 @@
 .button:hover,
 .button:focus{
-        background-color: #404bbf;
+background-color: #404bbf;
  }
 .contacts-link:hover,
 .contacts-link:focus{
-        color:#4d5ae5
+color:#4d5ae5
  }
+.footer-section{
+display: flex;
+flex-direction: column;
+padding: 100px 0;
+background-color: #2e2f42;
+}
+.container-footer{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+width: 100%;
+max-width: 1158px;
+padding: 0 15px;
+margin: 0 auto; 
+}
 .logo-accent{
 font-weight: 700;
 font-size: 18px;
@@ -13,18 +30,19 @@ line-height: 1.33;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:#4d5ae5;
-background-color: #2e2f42;
-  } 
-.footer-text{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-}
+background-color: transparent;
+} 
 .logo-studio{
-    color:  #fff;
+color:  #f4f4fd;
 }
-#footer{
-    background-color: #2e2f42;
+.footer-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+max-width: 264px;
+margin-top: 0;
 }
+
+
