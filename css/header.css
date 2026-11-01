@@ -1,78 +1,70 @@
-   
-.button:hover,
-.button:focus{
-background-color: #404bbf;
+.header {
+border-bottom: 1px solid #e7e9fc;
 }
-.contacts-link:hover,
-.contacts-link:focus{
-color:#4d5ae5
+.container-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.page-navigation {
+display: flex;
+align-items: center;
 }
 
-.logo-accent{
+/* ===== Логотип ===== */
+.logo {
+display: inline-block;
+margin-right: 76px;
+padding: 24px 0;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.logo-accent {
 color: #4d5ae5;
-} 
-.page-menu-link{
+}
+.logo-studio-name {
+color: #2e2f42;
+}
+
+/* ===== Меню ===== */
+.page-menu {
+display: flex;
+column-gap: 40px;
+}
+.page-menu-link {
+display: inline-block;
+padding: 24px 0;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-list-style: none;
-margin: 24px 40px 24px 0;
+color: #2e2f42;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .page-menu-link:hover,
-.page-menu-link :focus{
+.page-menu-link:focus {
 color: #404bbf;
-list-style: none;
-}
-.contacts-list-link{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-list-style: none;
-padding: 24px 0;
-display: inline-block;
 }
 
-.contacts-list{
-list-style: none;
-}
-.logo-studio-name{
-color:#000000;
-text-decoration: none;
-}
-
-.container-header{
-width: 1440px;
-padding: 0 141px; /*відцентровує контейнер по ширині сторінки*/
-display: flex;    /* розподіляє в рядок*/
-justify-content: space-between; /* розкидає текст по різним куткам*/
-align-items: center; /* текст на одній лінії*/
-}
-.page-navigation{
-display: flex;
-align-items: center;; /* текст на одній лінії*/
-   
-}
-.page-menu{
-list-style: none;
-display: flex;
-column-gap: 40px;  /* задає відступ між назвами*/
-}
-.container-contacts-list{
+/* ===== Контакти ===== */
+.container-contacts-list {
 display: flex;
 column-gap: 40px;
 }
-.logo{
- margin: 0 76px 0 15px;
- padding: 24px 0;
- display: inline-block;
-}
-.contacts-list-atem{
-margin: 0 15px 0 40px;
-}
-.page-menu-atem{
-max-width: calc((253%-3*66px)/3);
+.contacts-list-link {
+display: inline-block;
 padding: 24px 0;
-display: inline-block; /*  вибирає інлайн посилання по всій заданій висоті*/
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+color: #4d5ae5;
 }

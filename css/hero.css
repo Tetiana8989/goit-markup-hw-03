@@ -48,3 +48,9 @@ text-decoration: none;
 box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
 background: #4d5ae5;
  }
+.button:hover,
+.button:focus{
+background-color: #404bbf;
+}
+.button{
+cursor: pointer;
